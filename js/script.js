@@ -35,12 +35,41 @@ $(function() {
   // $("p").hide(1000);
   // $("p").slideDown(1000);
 
-  $(".blue-box").animate({
-    "margin-left" :"200px"
-  },1000,"linear");
+  // $(".blue-box").animate({
+  //   "margin-left" :"200px"
+  // },1000,"linear");
 
-  $(".blue-box").animate({
-    "margin-left" : "0px"
-  },1000,"linear");
+  // $(".blue-box").animate({
+  //   "margin-left" : "0px"
+  // },1000,"linear");
+
+  // $(".blue-box").animate({
+  //   "margin-left" : "200px",
+  //   "opacity" : "0",
+
+  // },1000);
+
+  // $("p").animate({
+  //   fontSize : "20px",
+     
+
+  // },1000);
+
+
+  // $(".red-box").fadeTo(1000,0.2);
+  // $(".green-box").delay(1000).fadeTo(1000,0.5);
+  // $(".blue-box").delay(2000).fadeTo(1000,0.7);
+
+  // $(".red-box").fadeTo(1000,0,function(){
+  //  // alert("Animation finished");
+  //  $(".green-box").fadeTo(1000,0,function(){
+  //     $(".blue-box").fadeTo(1000,0,function(){
+  //       alert("Bye..")
+  //     })
+  //  })
+  // });
+
+  $(".lightbox").delay(5000).fadeIn(1000);
+
 
 });
