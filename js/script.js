@@ -32,8 +32,15 @@ $(function() {
 
   // }
 
-  $("p").hide(1000);
-  $("p").slideDown(1000);
+  // $("p").hide(1000);
+  // $("p").slideDown(1000);
 
+  $(".blue-box").animate({
+    "margin-left" :"200px"
+  },1000,"linear");
+
+  $(".blue-box").animate({
+    "margin-left" : "0px"
+  },1000,"linear");
 
 });
