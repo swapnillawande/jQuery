@@ -69,7 +69,11 @@ $(function() {
   //  })
   // });
 
-  $(".lightbox").delay(5000).fadeIn(1000);
+  //$(".lightbox").delay(5000).fadeIn(1000);
 
+  //$("#list").css("background-color","rgba(180,180,30,0.8)")
+
+  //$("#list").find("li").css("background-color","rgba(180,180,30,0.8)");
+  $("#content").next().css("background-color","rgba(180,180,30,0.8)");
 
 });
