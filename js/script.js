@@ -74,6 +74,96 @@ $(function() {
   //$("#list").css("background-color","rgba(180,180,30,0.8)")
 
   //$("#list").find("li").css("background-color","rgba(180,180,30,0.8)");
-  $("#content").next().css("background-color","rgba(180,180,30,0.8)");
+  //$("#content").next().css("background-color","rgba(180,180,30,0.8)");
+
+  $("<li>AppendTo</li>").appendTo($("ul ul:first"));
+  $("<li>PrependTo</li>").prependTo($("ul ul:first"));
+
+  $("<h4>Swapnil Lawande</h4>").prependTo("#content");
+
+  //$(".red-box").after("<div class='red-box'>Another red </div>");
+
+  //$(".blue-box").before("<div class='blue-box'>New blue box</div>")
+
+  // $(".blue-box").after(function(){
+  //   return "<div class='red-box'>Last red box</div>";
+  // })
+
+  //$(".blue-box").before($(".red-box"))
+
+  //$("p").after($("#list"))
+
+  //$("li").replaceWith("<li>New list </li>");
+
+  // $("li").replaceWith(function(){
+  //   return "<li>List of functions</li>"
+  // })
+
+  // var firstItem = $("li:first");
+
+  // //$("p").replaceWith(firstItem);
+
+  // // $(".red-box,.blue-box").replaceWith(function(){
+  // //   return "<div class='green-box'>Magic box</div>"
+  // // })
+
+
+  // //$("form").remove("input:text")
+
+  // var galleryImage = $(".galery").find("img").first();
+  // var images =[
+
+  //   "images/laptop-mobile_small",
+  //   "images/laptop-on-table_small",
+  //   "images/people-office-group-team_small",
+  // ];
+  // var i=0;
+  // setInterval(function(){
+
+  //   i = (i+1)%images.length;
+
+  //   galleryImage.fadeOut(function(){
+  //     $(this).attr("src",images[i]);
+  //     $(this).fadeIn();
+  //   });
+  //   console.log(galleryImage.attr("src"));
+
+  // },2000);
+
+
+  // var galleryImage = $(".gallery").find("img").first();
+
+  // // Initialize an array of all images for the gallery
+  // var images = [
+  //   "images/laptop-mobile_small.jpg",
+  //   "images/laptop-on-table_small.jpg",
+  //   "images/people-office-group-team_small.jpg"
+  // ];
+
+  // // Now, we want to cycle through all images we have and show one after the
+  // // other in our gallery. For this, we create a variable i: the index of the
+  // // image we want to currently show.
+  // var i = 0;
+
+  // // setInterval will call whatever code is inside the callback function every
+  // // 2 seconds. This way, we can change the shown image every 2 seconds.
+  // setInterval(function() {
+  //   // First, we update the index i to the next image.
+  //   // However, we cannot simply do i = i+1 because that would quickly result in
+  //   // indexes i = 3, 4, 5 etc which are invalid for our array.
+  //   // So we constrain the sequence to the range 0..2 by using modulo 3 (i % 3).
+  //   i = (i + 1) % images.length;  // i = 1, 2, 0, 1, 2, 0, ...
+ 
+  //   galleryImage.fadeOut(function() {
+  //      $(this).attr("src", images[i]);
+  //     $(this).fadeIn();
+  //   });
+
+  //    console.log(galleryImage.attr("src"));
+
+  // }, 2000);
+
+
+
 
 });
