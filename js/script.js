@@ -179,4 +179,20 @@ $(function() {
     console.log(event);
   })
 
+  $(".blue-box").click(function(){
+
+    $(this).fadeTo(1000,0.5);
+  })
+
+  $("#btn-hover").hover(function(){
+    alert("Button was hovered");
+  })
+
+  $(".green-box").hover(function(){
+    $(this).css("background-color","violet");
+    //alert("Green box hovered");
+    $(this).text("I was hovered")
+  })
+
+
 });
