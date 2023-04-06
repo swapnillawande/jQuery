@@ -164,6 +164,19 @@ $(function() {
   // }, 2000);
 
 
+  var properties = $("p").css(["font-size","color"]);
+  console.log(properties);
 
+  var redBox = $(".red-box");
+  redBox.css("background-color","pink");
+
+  $("a").addClass("fancy-link");
+
+
+  $("#btn-click").click(function(event){
+
+    alert("Button was clicked.");
+    console.log(event);
+  })
 
 });
