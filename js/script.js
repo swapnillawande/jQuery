@@ -181,7 +181,7 @@ $(function() {
 
   $(".blue-box").click(function(){
 
-    $(this).fadeTo(1000,0.5);
+   // $(this).fadeTo(1000,0.5);
   })
 
   $("#btn-hover").hover(function(){
@@ -193,6 +193,28 @@ $(function() {
     //alert("Green box hovered");
     $(this).text("I was hovered")
   })
+
+  var blueBox = $(".blue-box");
+
+  blueBox.mouseenter(function(){
+    $(this).stop().fadeTo(500,0.5)
+    logEvent();
+  })
+
+  blueBox.mouseleave(function(){
+    $(this).stop().fadeTo(500,1)
+  })
+
+  $("html").on("click keydown",function(){
+    console.log("clicked or keydown or enter pressed");
+  })
+
+
+  function logEvent(){
+    console.log("Click was pressed");
+  }
+ 
+  $("html").on("click",logEvent);
 
 
 });
