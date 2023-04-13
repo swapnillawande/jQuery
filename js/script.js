@@ -216,5 +216,35 @@ $(function() {
  
   $("html").on("click",logEvent);
 
+  // working with rest api and jquery
+
+  //$.load() function to load any data html or text file from our server
+
+  var fURL = "https://www.flickr.com/services/feeds/photos_public.gne?jsoncallback=?";
+
+  $.getJSON(fURL,{
+    tags: "sun, beach",
+    tagmode: "any",
+    format: "json"
+  }).done(function(data){
+    console.log(data);
+    $.each(data.items, function (index , item){
+      console.log(item);
+      $("<img>").attr("src",item.media.m).appendTo("#fli")
+
+      if(index == 5){
+        return false;
+      }
+
+    })
+
+  }).fail(function(){
+    alert("Ajax call fail")
+  }) 
+
+   
+  
+
+
 
 });
