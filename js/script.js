@@ -1,250 +1,263 @@
-$(function() {
-  // jQuery goes here...
+// $(function() {
+//   // jQuery goes here...
 
-  // Uncomment this line to fade out the red box on page load
-  // $(".red-box").fadeOut(2000);
-  // $(".green-box").fadeOut(2000);
-  // $(".red-box").fadeIn(2000);
-  // $(".red-box").fadeTo(1000,0.5);
+//   // Uncomment this line to fade out the red box on page load
+//   // $(".red-box").fadeOut(2000);
+//   // $(".green-box").fadeOut(2000);
+//   // $(".red-box").fadeIn(2000);
+//   // $(".red-box").fadeTo(1000,0.5);
 
-  // $(".red-box").fadeTo(3000,0.2);
-  // $(".green-box").fadeTo(2000,0.5);
-  // $(".blue-box").fadeTo(1000,0.8);
-
-
-  // $(".blue-box").fadeToggle(2000);
-  // $(".blue-box").fadeToggle(2000);
-
-  // for(let i=0;i<10;i++){
-  //   $(".blue-box").fadeToggle(2000);
-  // }
+//   // $(".red-box").fadeTo(3000,0.2);
+//   // $(".green-box").fadeTo(2000,0.5);
+//   // $(".blue-box").fadeTo(1000,0.8);
 
 
-  //$(".blue-box").hide(1000);
-  //$(".blue-box").show();
+//   // $(".blue-box").fadeToggle(2000);
+//   // $(".blue-box").fadeToggle(2000);
 
-  // $(".blue-box").fadeOut(2000);
-  // $(".blue-box1").fadeOut(2000);
-  // $(".blue-box").slideDown(2000);
-  // $(".blue-box1").slideDown(2000);
+//   // for(let i=0;i<10;i++){
+//   //   $(".blue-box").fadeToggle(2000);
+//   // }
 
-  // for(let i=0;i<4;i++){
 
-  // }
+//   //$(".blue-box").hide(1000);
+//   //$(".blue-box").show();
 
-  // $("p").hide(1000);
-  // $("p").slideDown(1000);
+//   // $(".blue-box").fadeOut(2000);
+//   // $(".blue-box1").fadeOut(2000);
+//   // $(".blue-box").slideDown(2000);
+//   // $(".blue-box1").slideDown(2000);
 
-  // $(".blue-box").animate({
-  //   "margin-left" :"200px"
-  // },1000,"linear");
+//   // for(let i=0;i<4;i++){
 
-  // $(".blue-box").animate({
-  //   "margin-left" : "0px"
-  // },1000,"linear");
+//   // }
 
-  // $(".blue-box").animate({
-  //   "margin-left" : "200px",
-  //   "opacity" : "0",
+//   // $("p").hide(1000);
+//   // $("p").slideDown(1000);
 
-  // },1000);
+//   // $(".blue-box").animate({
+//   //   "margin-left" :"200px"
+//   // },1000,"linear");
 
-  // $("p").animate({
-  //   fontSize : "20px",
+//   // $(".blue-box").animate({
+//   //   "margin-left" : "0px"
+//   // },1000,"linear");
+
+//   // $(".blue-box").animate({
+//   //   "margin-left" : "200px",
+//   //   "opacity" : "0",
+
+//   // },1000);
+
+//   // $("p").animate({
+//   //   fontSize : "20px",
      
 
-  // },1000);
+//   // },1000);
 
 
-  // $(".red-box").fadeTo(1000,0.2);
-  // $(".green-box").delay(1000).fadeTo(1000,0.5);
-  // $(".blue-box").delay(2000).fadeTo(1000,0.7);
+//   // $(".red-box").fadeTo(1000,0.2);
+//   // $(".green-box").delay(1000).fadeTo(1000,0.5);
+//   // $(".blue-box").delay(2000).fadeTo(1000,0.7);
 
-  // $(".red-box").fadeTo(1000,0,function(){
-  //  // alert("Animation finished");
-  //  $(".green-box").fadeTo(1000,0,function(){
-  //     $(".blue-box").fadeTo(1000,0,function(){
-  //       alert("Bye..")
-  //     })
-  //  })
-  // });
+//   // $(".red-box").fadeTo(1000,0,function(){
+//   //  // alert("Animation finished");
+//   //  $(".green-box").fadeTo(1000,0,function(){
+//   //     $(".blue-box").fadeTo(1000,0,function(){
+//   //       alert("Bye..")
+//   //     })
+//   //  })
+//   // });
 
-  //$(".lightbox").delay(5000).fadeIn(1000);
+//   //$(".lightbox").delay(5000).fadeIn(1000);
 
-  //$("#list").css("background-color","rgba(180,180,30,0.8)")
+//   //$("#list").css("background-color","rgba(180,180,30,0.8)")
 
-  //$("#list").find("li").css("background-color","rgba(180,180,30,0.8)");
-  //$("#content").next().css("background-color","rgba(180,180,30,0.8)");
+//   //$("#list").find("li").css("background-color","rgba(180,180,30,0.8)");
+//   //$("#content").next().css("background-color","rgba(180,180,30,0.8)");
 
-  $("<li>AppendTo</li>").appendTo($("ul ul:first"));
-  $("<li>PrependTo</li>").prependTo($("ul ul:first"));
+//   $("<li>AppendTo</li>").appendTo($("ul ul:first"));
+//   $("<li>PrependTo</li>").prependTo($("ul ul:first"));
 
-  $("<h4>Swapnil Lawande</h4>").prependTo("#content");
+//   $("<h4>Swapnil Lawande</h4>").prependTo("#content");
 
-  //$(".red-box").after("<div class='red-box'>Another red </div>");
+//   //$(".red-box").after("<div class='red-box'>Another red </div>");
 
-  //$(".blue-box").before("<div class='blue-box'>New blue box</div>")
+//   //$(".blue-box").before("<div class='blue-box'>New blue box</div>")
 
-  // $(".blue-box").after(function(){
-  //   return "<div class='red-box'>Last red box</div>";
-  // })
+//   // $(".blue-box").after(function(){
+//   //   return "<div class='red-box'>Last red box</div>";
+//   // })
 
-  //$(".blue-box").before($(".red-box"))
+//   //$(".blue-box").before($(".red-box"))
 
-  //$("p").after($("#list"))
+//   //$("p").after($("#list"))
 
-  //$("li").replaceWith("<li>New list </li>");
+//   //$("li").replaceWith("<li>New list </li>");
 
-  // $("li").replaceWith(function(){
-  //   return "<li>List of functions</li>"
-  // })
+//   // $("li").replaceWith(function(){
+//   //   return "<li>List of functions</li>"
+//   // })
 
-  // var firstItem = $("li:first");
+//   // var firstItem = $("li:first");
 
-  // //$("p").replaceWith(firstItem);
+//   // //$("p").replaceWith(firstItem);
 
-  // // $(".red-box,.blue-box").replaceWith(function(){
-  // //   return "<div class='green-box'>Magic box</div>"
-  // // })
-
-
-  // //$("form").remove("input:text")
-
-  // var galleryImage = $(".galery").find("img").first();
-  // var images =[
-
-  //   "images/laptop-mobile_small",
-  //   "images/laptop-on-table_small",
-  //   "images/people-office-group-team_small",
-  // ];
-  // var i=0;
-  // setInterval(function(){
-
-  //   i = (i+1)%images.length;
-
-  //   galleryImage.fadeOut(function(){
-  //     $(this).attr("src",images[i]);
-  //     $(this).fadeIn();
-  //   });
-  //   console.log(galleryImage.attr("src"));
-
-  // },2000);
+//   // // $(".red-box,.blue-box").replaceWith(function(){
+//   // //   return "<div class='green-box'>Magic box</div>"
+//   // // })
 
 
-  // var galleryImage = $(".gallery").find("img").first();
+//   // //$("form").remove("input:text")
 
-  // // Initialize an array of all images for the gallery
-  // var images = [
-  //   "images/laptop-mobile_small.jpg",
-  //   "images/laptop-on-table_small.jpg",
-  //   "images/people-office-group-team_small.jpg"
-  // ];
+//   // var galleryImage = $(".galery").find("img").first();
+//   // var images =[
 
-  // // Now, we want to cycle through all images we have and show one after the
-  // // other in our gallery. For this, we create a variable i: the index of the
-  // // image we want to currently show.
-  // var i = 0;
+//   //   "images/laptop-mobile_small",
+//   //   "images/laptop-on-table_small",
+//   //   "images/people-office-group-team_small",
+//   // ];
+//   // var i=0;
+//   // setInterval(function(){
 
-  // // setInterval will call whatever code is inside the callback function every
-  // // 2 seconds. This way, we can change the shown image every 2 seconds.
-  // setInterval(function() {
-  //   // First, we update the index i to the next image.
-  //   // However, we cannot simply do i = i+1 because that would quickly result in
-  //   // indexes i = 3, 4, 5 etc which are invalid for our array.
-  //   // So we constrain the sequence to the range 0..2 by using modulo 3 (i % 3).
-  //   i = (i + 1) % images.length;  // i = 1, 2, 0, 1, 2, 0, ...
+//   //   i = (i+1)%images.length;
+
+//   //   galleryImage.fadeOut(function(){
+//   //     $(this).attr("src",images[i]);
+//   //     $(this).fadeIn();
+//   //   });
+//   //   console.log(galleryImage.attr("src"));
+
+//   // },2000);
+
+
+//   // var galleryImage = $(".gallery").find("img").first();
+
+//   // // Initialize an array of all images for the gallery
+//   // var images = [
+//   //   "images/laptop-mobile_small.jpg",
+//   //   "images/laptop-on-table_small.jpg",
+//   //   "images/people-office-group-team_small.jpg"
+//   // ];
+
+//   // // Now, we want to cycle through all images we have and show one after the
+//   // // other in our gallery. For this, we create a variable i: the index of the
+//   // // image we want to currently show.
+//   // var i = 0;
+
+//   // // setInterval will call whatever code is inside the callback function every
+//   // // 2 seconds. This way, we can change the shown image every 2 seconds.
+//   // setInterval(function() {
+//   //   // First, we update the index i to the next image.
+//   //   // However, we cannot simply do i = i+1 because that would quickly result in
+//   //   // indexes i = 3, 4, 5 etc which are invalid for our array.
+//   //   // So we constrain the sequence to the range 0..2 by using modulo 3 (i % 3).
+//   //   i = (i + 1) % images.length;  // i = 1, 2, 0, 1, 2, 0, ...
  
-  //   galleryImage.fadeOut(function() {
-  //      $(this).attr("src", images[i]);
-  //     $(this).fadeIn();
-  //   });
+//   //   galleryImage.fadeOut(function() {
+//   //      $(this).attr("src", images[i]);
+//   //     $(this).fadeIn();
+//   //   });
 
-  //    console.log(galleryImage.attr("src"));
+//   //    console.log(galleryImage.attr("src"));
 
-  // }, 2000);
-
-
-  var properties = $("p").css(["font-size","color"]);
-  console.log(properties);
-
-  var redBox = $(".red-box");
-  redBox.css("background-color","pink");
-
-  $("a").addClass("fancy-link");
+//   // }, 2000);
 
 
-  $("#btn-click").click(function(event){
+//   var properties = $("p").css(["font-size","color"]);
+//   console.log(properties);
 
-    alert("Button was clicked.");
-    console.log(event);
-  })
+//   var redBox = $(".red-box");
+//   redBox.css("background-color","pink");
 
-  $(".blue-box").click(function(){
-
-   // $(this).fadeTo(1000,0.5);
-  })
-
-  $("#btn-hover").hover(function(){
-    alert("Button was hovered");
-  })
-
-  $(".green-box").hover(function(){
-    $(this).css("background-color","violet");
-    //alert("Green box hovered");
-    $(this).text("I was hovered")
-  })
-
-  var blueBox = $(".blue-box");
-
-  blueBox.mouseenter(function(){
-    $(this).stop().fadeTo(500,0.5)
-    logEvent();
-  })
-
-  blueBox.mouseleave(function(){
-    $(this).stop().fadeTo(500,1)
-  })
-
-  $("html").on("click keydown",function(){
-    console.log("clicked or keydown or enter pressed");
-  })
+//   $("a").addClass("fancy-link");
 
 
-  function logEvent(){
-    console.log("Click was pressed");
-  }
+//   $("#btn-click").click(function(event){
+
+//     alert("Button was clicked.");
+//     console.log(event);
+//   })
+
+//   $(".blue-box").click(function(){
+
+//    // $(this).fadeTo(1000,0.5);
+//   })
+
+//   $("#btn-hover").hover(function(){
+//     alert("Button was hovered");
+//   })
+
+//   $(".green-box").hover(function(){
+//     $(this).css("background-color","violet");
+//     //alert("Green box hovered");
+//     $(this).text("I was hovered")
+//   })
+
+//   var blueBox = $(".blue-box");
+
+//   blueBox.mouseenter(function(){
+//     $(this).stop().fadeTo(500,0.5)
+//     logEvent();
+//   })
+
+//   blueBox.mouseleave(function(){
+//     $(this).stop().fadeTo(500,1)
+//   })
+
+//   $("html").on("click keydown",function(){
+//     console.log("clicked or keydown or enter pressed");
+//   })
+
+
+//   function logEvent(){
+//     console.log("Click was pressed");
+//   }
  
-  $("html").on("click",logEvent);
+//   $("html").on("click",logEvent);
 
-  // working with rest api and jquery
+//   // working with rest api and jquery
 
-  //$.load() function to load any data html or text file from our server
+//   //$.load() function to load any data html or text file from our server
 
-  var fURL = "https://www.flickr.com/services/feeds/photos_public.gne?jsoncallback=?";
+//   var fURL = "https://www.flickr.com/services/feeds/photos_public.gne?jsoncallback=?";
 
-  $.getJSON(fURL,{
-    tags: "sun, beach",
-    tagmode: "any",
-    format: "json"
-  }).done(function(data){
-    console.log(data);
-    $.each(data.items, function (index , item){
-      console.log(item);
-      $("<img>").attr("src",item.media.m).appendTo("#fli")
+//   $.getJSON(fURL,{
+//     tags: "sun, beach",
+//     tagmode: "any",
+//     format: "json"
+//   }).done(function(data){
+//     console.log(data);
+//     $.each(data.items, function (index , item){
+//       console.log(item);
+//       $("<img>").attr("src",item.media.m).appendTo("#fli")
 
-      if(index == 5){
-        return false;
-      }
+//       if(index == 5){
+//         return false;
+//       }
 
-    })
+//     })
 
-  }).fail(function(){
-    alert("Ajax call fail")
-  }) 
+//   }).fail(function(){
+//     alert("Ajax call fail")
+//   }) 
 
    
   
 
 
 
-});
+// });
+$(function(){
+
+  $("#sub").on("click",function(){
+    //alert("No")
+    //document.querySelector("h1").innerHTML="Hi"
+    $("h1").after(function (){
+  
+    })
+  })
+
+
+
+})
