@@ -1,0 +1,21 @@
+h1{
+    color:chocolate;
+ 
+}
+
+
+.container{
+    background-color: lightgray;
+    /* border-radius: 3px; */
+     
+    
+}
+
+.container-fluid{
+    background-color: lightgray;
+    
+}
+
+.row{
+    border: 2px solid violet;
+}
